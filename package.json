@@ -4,9 +4,12 @@
   "description": "Premium landing page for Discover Zushi luxury cultural experiences.",
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
+  },
+  "engines": {
+    "node": ">=20.11.0"
   },
   "keywords": [],
   "author": "",
